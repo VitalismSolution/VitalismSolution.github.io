@@ -398,60 +398,79 @@ a.mega-menu-link[href*="powered-by-binah-ai"]{
 
 
 
-<div class="section-faq block faq  " data-block_6139ef49a2d23>
+<div class="faq-section block faq" data-block_61c9b07ff723c style="background-color: #ffffff">
   <div class="container grid-container">
     <h2>FAQs:</h2>
-    <div class="section-faq-list">
-                      <div class="section-faq-item closed">
-          <div class="section-faq-question">Is Vitalism system easy to integrate?</div>
-          <div class="section-faq-answer"><p>Vitalsim system is so easy to integrate that many of our customers completed the integration on their own within a matter of days. Our comprehensive support document library and customer success team are available 24/7 for any questions or concerns regarding the integration.</p>
-</div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-question">What is Vitalism Check?</div>
+        <div class="faq-answer-container">
+          <div class="faq-answer"><p>Vitalism Check is a ready-to-use application and management portal that businesses can use to remotely measure or enable clients to measure health parameters. The application is compatible with desktops, mobile devices and web applications.</p></div>
         </div>
-                      <div class="section-faq-item closed">
-          <div class="section-faq-question">How does Vitalism’s contactless blood pressure monitoring technology work?</div>
-          <div class="section-faq-answer"><div class="post_body_wrapper">
-<div class="post-body-container">
-<div class="post_body">
-<div class="body_text redactor-styles redactor-in">
-<p>Vitalism’s contactless blood pressure monitoring technology extracts blood pressure using an optical technique called photoplethysmography (PPG), which analyzes light that reflects off exposed skin on a human face. The technology uses advanced AI and deep learning algorithms, including computer vision technology and signal processing.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Which devices is Vitalism Check compatible with?</div>
+        <div class="faq-answer-container">
+          <div class="faq-answer"><p>Vitalism Check is compatible with Android mobile devices and Windows laptops and desktops. Vitalism Check is also available as a web application for Google Chrome and Safari mobile browsers.</p></div>
         </div>
-                      <div class="section-faq-item closed">
-          <div class="section-faq-question">Does Vitalism’s health monitoring require contact with the skin?</div>
-          <div class="section-faq-answer"><p>Vitalism offers two methods of measurement:</p>
-<ol>
-<li><strong>Contactless (rPPG)</strong> – requires the user to look at the device’s camera.</li>
-<li><strong>Contact-based (PPG)</strong> – requires the user to touch the smartphone’s rear camera with a finger. The contact-based measurement is to be used in challenging conditions, like complete darkness or excessive movement.</li>
-</ol>
-</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Does Vitalism Check require internet connection to measure health parameters?</div>
+        <div class="faq-answer-container">
+          <div class="faq-answer"><p>Yes, internet connection is needed to complete measurements using Vitalism Check.</p></div>
         </div>
-                      <div class="section-faq-item closed">
-          <div class="section-faq-question">Which devices does Vitalism support?</div>
-          <div class="section-faq-answer"><p>Vitalism system is a software-based solution that runs on multiple  s, including iOS and Android mobile devices and Windows laptops and desktops. Binah SDK is also compatible with web applications for Google Chrome and Safari. <a style="letter-spacing: -0.03em;" href="https://www.binah.ai/contact/">Talk to us</a><span style="letter-spacing: -0.03em;"> now to learn more.</span></p>
-</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Does Vitalism Check save images or videos of users?</div>
+        <div class="faq-answer-container">
+          <div class="faq-answer"><p>No, Vitalism Check does not save images or videos of users.</p></div>
         </div>
-                      <div class="section-faq-item closed">
-          <div class="section-faq-question">Does Vitalism save images or videos of users?</div>
-          <div class="section-faq-answer"><p>No, Vitalism does not save images or videos of users.</p>
-</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Does Vitalism.ai have access to the data measured using Vitalism Check?</div>
+        <div class="faq-answer-container">
+          <div class="faq-answer"><p>No, Vitalism.ai does not have access to the data measured. The data is accessible to your account admins and your clients so that you may both view measurement history and trends.</p></div>
         </div>
-                      <div class="section-faq-item closed">
-          <div class="section-faq-question">Does Vitalism have access to the measured health data?</div>
-          <div class="section-faq-answer"><p>No, Vitalism does not have access to the measured health data. The entire process is performed on the end-user’s device (smartphone, tablet, laptop, etc), and end-users may opt not to share their health data.</p>
-</div>
-        </div>
-                      <div class="section-faq-item closed">
-          <div class="section-faq-question">Does Vitalism require internet connection to measure health parameters?</div>
-          <div class="section-faq-answer"><p>No, Vitalism technology, when delivered as an SDK, does not require internet connection to perform the measurement. The entire process runs on the end-user’s device.</p>
-</div>
-        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Does Vitalism.ai’s health monitoring require contact with the skin?</div>
+        <div class="faq-answer-container">
+          <div class="faq-answer"><p>Vitalism.ai offers two methods of measurement:</p>
+            <ol>
+              <li><strong>Contactless, video-based (rPPG)</strong> – requires the user to look at the device’s camera.</li>
+              <li><strong>Contact-based (PPG)</strong> – requires the user to touch the smartphone rear camera with a finger. The contact-based measurement is to be used in challenging conditions, like complete darkness or excessive movement.</li>
+            </ol>
           </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+
+<style>
+  .faq-answer-container {
+    display:list-item;
+  }
+
+  .faq-item.opened .faq-answer-container {
+    display:list-item;
+  }
+
+  .faq-question {
+    color: blue;
+    font-size: x-large;
+  }
+</style>
+
+<script>
+  const faqItems = document.querySelectorAll('.faq-item');
+  faqItems.forEach(item => {
+    const question = item.querySelector('.faq-question');
+    question.addEventListener('click', () => {
+      item.classList.toggle('opened');
+    });
+  });
+</script>
 
 
 <section class="two-columns block two-columns   binah sdk-binah-team" style="background-image: url(images/WhatsApp\ Image\ 2023-02-08\ at\ 7.05.41\ PM.jpeg);" data-block_a5a8e71dcc3edcbf0813071476b2e4a9>
