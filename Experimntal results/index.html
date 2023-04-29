@@ -399,43 +399,51 @@ a.mega-menu-link[href*="powered-by-Vitalism-ai"]{
   
 
 
-<div class="slider-careers block careers-slider   dark center-text-vertically text-hover text-white  block-anchor" data-block_61094607fbe5b>
-  <div class="swiper-careers">
+  <div class="swiper-container">
     <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-            <div class="slider-careers__inner">
-              
-              <div class="bg-image bg-image-mobile" style="background-image: url(images/Vitalism-check-device-telemedicine-mobile.png ); background-size: cover; background-color: ; "></div>
-              <iframe width="746" height="420"  style="margin-left: 5cm;" src="https://www.youtube.com/embed/4sKGUBbo7hs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-              
-                          </div>
-          </div>
-
-
-          <div class="swiper-slide">
-            <div class="slider-careers__inner">
-              
-              <div class="bg-image bg-image-mobile" style="background-image: url(images/Vitalism-check-device-telemedicine-mobile.png ); background-size: cover; background-color: ; "></div>
-              <iframe width="746" height="420"  style="margin-left: 5cm;" src="https://www.youtube.com/embed/oD4OoqY9K3Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-              
-                          </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slider-careers__inner">
-              
-              <div class="bg-image bg-image-mobile" style="background-image: url(images/Vitalism-check-device-telemedicine-mobile.png ); background-size: cover; background-color: ; "></div>
-              <iframe width="746" height="420"  style="margin-left: 5cm;" src="https://www.youtube.com/embed/EH5rqCiNZsE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-              
-                          </div>
-          </div>
-          </div>
-                           
-            </div>
-        <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-pagination"></div>
+      <div class="swiper-slide">
+        <div class="slider-careers__inner">
+          <div class="bg-image bg-image-mobile" style="background-image: url(images/Vitalism-check-device-telemedicine-mobile.png ); background-size: cover; background-color: ; "></div>
+          <iframe width="746" height="420"  style="margin-left: 5cm;" src="https://www.youtube.com/embed/4sKGUBbo7hs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
       </div>
-</div>
+      <div class="swiper-slide">
+        <div class="slider-careers__inner">
+          <div class="bg-image bg-image-mobile" style="background-image: url(images/Vitalism-check-device-telemedicine-mobile.png ); background-size: cover; background-color: ; "></div>
+          <iframe width="746" height="420"  style="margin-left: 5cm;" src="https://www.youtube.com/embed/oD4OoqY9K3Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="slider-careers__inner">
+          <div class="bg-image bg-image-mobile" style="background-image: url(images/Vitalism-check-device-telemedicine-mobile.png ); background-size: cover; background-color: ; "></div>
+          <iframe width="746" height="420"  style="margin-left: 5cm;" src="https://www.youtube.com/embed/EH5rqCiNZsE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 'auto',
+      spaceBetween: 20,
+      loop: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
 
 <div  id="results" class="solution block solution   right   bigger-padding" data-block_610946fafbe60 style=" background-image: url(images/grey-bg.png) ">
 
@@ -477,7 +485,7 @@ a.mega-menu-link[href*="powered-by-Vitalism-ai"]{
                      
                       
                       <div class="content"><p style="margin-left: 1cm;"> Comparison of Vitalism and Traditional Devices Results for Heart Rate</p>
-                        <a href="images/heart_graph.png"  > <img decoding="async"   class="section-image desktop img-pos-right" src="images/heart_graph.png"></a>
+                        <a href="images/heart_graph.png"  > <img    class="section-image desktop img-pos-right" src="images/heart_graph.png"></a>
                 
                 
                 
@@ -501,51 +509,79 @@ a.mega-menu-link[href*="powered-by-Vitalism-ai"]{
 </div>
 
 
-
-
-<div class="section-faq block faq  " data-block_61c9b07ff723c style="background-color: #ffffff">
+<div class="faq-section block faq" data-block_61c9b07ff723c style="background-color: #ffffff">
   <div class="container grid-container">
     <h2>FAQs:</h2>
-    <div class="section-faq-list">
-                      <div class="section-faq-item closed">
-          <div class="section-faq-question">What is Vitalism Check?</div>
-          <div class="section-faq-answer"><p>Vitalism Check is a ready-to-use application and management portal that businesses can use to remotely measure or enable clients to measure health parameters. The application is compatible with desktops, mobile devices and web applications.</p>
-</div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-question">What is Vitalism Check?</div>
+        <div class="faq-answer-container">
+          <div class="faq-answer"><p>Vitalism Check is a ready-to-use application and management portal that businesses can use to remotely measure or enable clients to measure health parameters. The application is compatible with desktops, mobile devices and web applications.</p></div>
         </div>
-                      <div class="section-faq-item closed">
-          <div class="section-faq-question">Which devices is Vitalism Check compatible with?</div>
-          <div class="section-faq-answer"><p>Vitalism Check is compatible with iOS and Android mobile devices and Windows laptops and desktops. Vitalism Check is also available as a web application for Google Chrome and Safari mobile browsers.</p>
-</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Which devices is Vitalism Check compatible with?</div>
+        <div class="faq-answer-container">
+          <div class="faq-answer"><p>Vitalism Check is compatible with Android mobile devices and Windows laptops and desktops. Vitalism Check is also available as a web application for Google Chrome and Safari mobile browsers.</p></div>
         </div>
-                      <div class="section-faq-item closed">
-          <div class="section-faq-question">Does Vitalism Check require internet connection to measure health parameters?</div>
-          <div class="section-faq-answer"><p>Yes, internet connection is needed to complete measurements using Vitalism Check.</p>
-</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Does Vitalism Check require internet connection to measure health parameters?</div>
+        <div class="faq-answer-container">
+          <div class="faq-answer"><p>Yes, internet connection is needed to complete measurements using Vitalism Check.</p></div>
         </div>
-                      <div class="section-faq-item closed">
-          <div class="section-faq-question">Does Vitalism Check save images or videos of users?</div>
-          <div class="section-faq-answer"><p>No, Vitalism Check does not save images or videos of users.</p>
-</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Does Vitalism Check save images or videos of users?</div>
+        <div class="faq-answer-container">
+          <div class="faq-answer"><p>No, Vitalism Check does not save images or videos of users.</p></div>
         </div>
-                      <div class="section-faq-item closed">
-          <div class="section-faq-question">Does Vitalism.ai have access to the data measured using Vitalism Check?</div>
-          <div class="section-faq-answer"><p>No, Vitalism.ai does not have access to the data measured. The data is accessible to your account admins and your clients so that you may both view measurement history and trends.</p>
-</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Does Vitalism.ai have access to the data measured using Vitalism Check?</div>
+        <div class="faq-answer-container">
+          <div class="faq-answer"><p>No, Vitalism.ai does not have access to the data measured. The data is accessible to your account admins and your clients so that you may both view measurement history and trends.</p></div>
         </div>
-                      <div class="section-faq-item closed">
-          <div class="section-faq-question">Does Vitalism.ai’s health monitoring require contact with the skin?</div>
-          <div class="section-faq-answer"><p>Vitalism.ai offers two methods of measurement:</p>
-<ol>
-<li><strong>Contactless, video-based (rPPG)</strong> – requires the user to look at the device’s camera.</li>
-<li><strong>Contact-based (PPG)</strong> – requires the user to touch the smartphone rear camera with a finger. The contact-based measurement is to be used in challenging conditions, like complete darkness or excessive movement.</li>
-</ol>
-</div>
-        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Does Vitalism.ai’s health monitoring require contact with the skin?</div>
+        <div class="faq-answer-container">
+          <div class="faq-answer"><p>Vitalism.ai offers two methods of measurement:</p>
+            <ol>
+              <li><strong>Contactless, video-based (rPPG)</strong> – requires the user to look at the device’s camera.</li>
+              <li><strong>Contact-based (PPG)</strong> – requires the user to touch the smartphone rear camera with a finger. The contact-based measurement is to be used in challenging conditions, like complete darkness or excessive movement.</li>
+            </ol>
           </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
+<style>
+  .faq-answer-container {
+    display:list-item;
+  }
 
+  .faq-item.opened .faq-answer-container {
+    display:list-item;
+  }
+
+  .faq-question {
+    color: blue;
+    font-size: x-large;
+  }
+</style>
+
+<script>
+  const faqItems = document.querySelectorAll('.faq-item');
+  faqItems.forEach(item => {
+    const question = item.querySelector('.faq-question');
+    question.addEventListener('click', () => {
+      item.classList.toggle('opened');
+    });
+  });
+</script>
 <section class="two-columns block two-columns   binah sdk-binah-team" style="background-image: url(images/WhatsApp\ Image\ 2023-02-08\ at\ 7.05.41\ PM.jpeg);" data-block_c588a6e29e3f914066f65dc96f75fd39>
   
 	<div class="grid-container">
@@ -618,12 +654,7 @@ a.mega-menu-link[href*="powered-by-Vitalism-ai"]{
   <div class="footer-right">
     <div class="mf-newsletter-wrapper">
                 <h2 class="mce-title">Subscribe to our social media Pages</h2>
-                <div class="mf-newsletter">
-          <div class="footer-hubspot-form"></div>
-        </div>
-        <div class="mce-disclaimer">
-          
-        </div>
+                
     </div>
     <!--End mc_embed_signup-->
 
@@ -654,13 +685,13 @@ a.mega-menu-link[href*="powered-by-Vitalism-ai"]{
           <div class="footer-social">
       <div class="social-container">
   <a href="https://www.facebook.com/Vitalism.Solution">
-    <img class="social-logo" src="fonts/Facebook.svg" alt="social_icon" data-orig="https://www.binah.ai/wp-content/uploads/2020/10/Facebook.svg" data-hover="https://www.binah.ai/wp-content/uploads/2020/10/facebook-1.svg">
+    <img class="social-logo" src="fonts/Facebook.svg" alt="social_icon">
   </a>
 </div>
   
    <div class="social-container">
   <a href="https://www.linkedin.com/company/vitalism-solution/?viewAsMember=true">
-    <img class="social-logo" src="fonts/LinkedIn.svg" alt="social_icon" data-orig="https://www.binah.ai/wp-content/uploads/2020/10/LinkedIn.svg" data-hover="https://www.binah.ai/wp-content/uploads/2020/10/linkedin-1.svg">
+    <img class="social-logo" src="fonts/LinkedIn.svg" alt="social_icon" >
   </a>
 </div>
 
