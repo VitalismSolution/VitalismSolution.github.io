@@ -29091,13 +29091,23 @@ body.events .hero-homepage .component-page-hero--left::after {
     position: static;
   }
 }
+.tabs-with-content-ctas {
+  overflow-x: scroll; /* or overflow-x: auto; */
+}
 
 /* line 123, resources/assets/styles/blocks/_tabs-with-content.scss */
 
 .tabs-with-content-tab-mobile {
   position: relative;
   min-height: 130px;
+  width: 50%;
+  overflow-x: scroll; /* or overflow-x: auto; */
 }
+.tabs-with-content-tab-mobile, .tabs-with-content-content-mobile {
+  width: 50%;
+  overflow-x: scroll; /* or overflow-x: auto; */
+}
+
 
 /* line 128, resources/assets/styles/blocks/_tabs-with-content.scss */
 

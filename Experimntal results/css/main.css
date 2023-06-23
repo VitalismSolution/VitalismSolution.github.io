@@ -3790,7 +3790,7 @@ body.password-protected-page .post-password-form label {
 .form-binah input[type="time"],
 .form-binah input[type="week"],
 .form-binah input[type="number"],
-.form-binah input[type="email"],
+
 .form-binah input[type="url"],
 .form-binah input[type="search"],
 .form-binah input[type="tel"],
@@ -6489,55 +6489,18 @@ body.password-protected-page .post-password-form label {
 
 /* line 35, resources/assets/styles/components/_subscribe.scss */
 
-.component-subscribe input[type="email"],
-.component-subscribe input[type="text"] {
-  height: 40px;
-  border-radius: 6px;
-  border: 1px solid #00b8ff;
-  background-color: #fff;
-  font-size: 16px;
-  line-height: 32px;
-  color: #889fb5;
-  padding-left: 15px;
-  max-width: 100%;
-  width: 100%;
-  margin-bottom: 1rem;
-}
 
-@media (min-width: 992px) {
-  /* line 35, resources/assets/styles/components/_subscribe.scss */
 
-  .component-subscribe input[type="email"],
-  .component-subscribe input[type="text"] {
-    margin-bottom: 0;
-  }
-}
+
 
 /* line 53, resources/assets/styles/components/_subscribe.scss */
 
-.component-subscribe input[type="email"]:focus,
-.component-subscribe input[type="text"]:focus {
-  outline: none;
-}
+
+
 
 /* line 58, resources/assets/styles/components/_subscribe.scss */
 
-.component-subscribe input[type="submit"] {
-  height: 40px;
-  border-radius: 8px;
-  margin: 0;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 36px;
-  letter-spacing: 0.5px;
-  text-align: center;
-  color: #fff;
-  border: 0;
-  outline: 0;
-  display: block;
-  width: 100%;
-  vertical-align: top;
-}
+
 
 /* line 75, resources/assets/styles/components/_subscribe.scss */
 
@@ -9038,13 +9001,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 /* line 166, resources/assets/styles/components/_job-application.scss */
 
-.component-job-application .wpcf7-form textarea,
-.component-job-application .wpcf7-form input[type="text"],
-.component-job-application .wpcf7-form input[type="number"],
-.component-job-application .wpcf7-form input[type="email"],
-.component-job-application .wpcf7-form input[type="tel"] {
-  outline: none;
-}
+
 
 /* line 174, resources/assets/styles/components/_job-application.scss */
 
@@ -10007,15 +9964,11 @@ html.pum-open.pum-open-overlay.pum-open-fixed .pum-container {
 
 /* line 286, resources/assets/styles/components/_hubspot-popups-customize.scss */
 
-.leadinModal--style-two.leadinModal-form .leadin-form-wrapper .input-email.input-error {
-  color: #f33f33 !important;
-}
+
 
 /* line 290, resources/assets/styles/components/_hubspot-popups-customize.scss */
 
-.leadinModal--style-two.leadinModal-form .leadin-form-wrapper .input-email:focus {
-  outline: none !important;
-}
+
 
 /* line 295, resources/assets/styles/components/_hubspot-popups-customize.scss */
 
@@ -12689,10 +12642,10 @@ body.events .hero-homepage .component-page-hero--left::after {
 /* line 254, resources/assets/styles/layouts/_blog.scss */
 
 .main-blog__sidebar .mf-newsletter .form-columns-1 input[type=text],
-.main-blog__sidebar .mf-newsletter .form-columns-1 input[type=email],
+
 .main-blog__sidebar .mf-newsletter .form-columns-1 select,
 .main-blog__sidebar .mf-newsletter .form-columns-2 input[type=text],
-.main-blog__sidebar .mf-newsletter .form-columns-2 input[type=email],
+
 .main-blog__sidebar .mf-newsletter .form-columns-2 select {
   width: 100%;
 }

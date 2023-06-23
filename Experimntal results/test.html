@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Slide with Text Effects, Animations, and Good Outer Design</title>
+	<style>
+		.slide {
+			position: relative;
+			height: 500px;
+			width: 100%;
+			overflow: hidden;
+			background-color: #333;
+			color: white;
+			font-family: 'Open Sans', sans-serif;
+			box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+		}
+		.slide > div {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			opacity: 0;
+			transition: opacity 1s ease-in-out;
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		.slide > div.active {
+			opacity: 1;
+		}
+		.slide > div h1 {
+			font-size: 4em;
+			margin-top: 0;
+			margin-bottom: 0.2em;
+			text-shadow: 2px 2px black;
+			animation: slideInUp 1s ease-in-out;
+			letter-spacing: 1px;
+		}
+		.slide > div p {
+			font-size: 1.5em;
+			margin-top: 0;
+			margin-bottom: 1em;
+			text-shadow: 2px 2px black;
+			animation: slideInDown 1s ease-in-out;
+			line-height: 1.5;
+			letter-spacing: 1px;
+		}
+		.slide > div a {
+			background-color: white;
+			color: #333;
+			padding: 0.5em 1.5em;
+			border-radius: 0.5em;
+			text-decoration: none;
+			font-weight: bold;
+			text-transform: uppercase;
+			transition: background-color 0.5s ease-in-out;
+			letter-spacing: 1px;
+		}
+		.slide > div a:hover {
+			background-color: #fff7b5;
+		}
+
+		@keyframes slideInUp {
+			from {
+				transform: translateY(100%);
+				opacity: 0;
+			}
+			to {
+				transform: translateY(0);
+				opacity: 1;
+			}
+		}
+
+		@keyframes slideInDown {
+			from {
+				transform: translateY(-100%);
+				opacity: 0;
+			}
+			to {
+				transform: translateY(0);
+				opacity: 1;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="slide">
+		<div class="active">
+			<h1>Slide 1</h1>
+			<p>This is the first slide. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed justo erat, sagittis eget malesuada in, vulputate ac sapien.</p>
+			<a href="#">Learn More</a>
+		</div>
+		<div>
+			<h1>Slide 2</h1>
+			<p>This is the second slide. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed justo erat, sagittis eget malesuada in, vulputate ac sapien.</p>
+			<a href="#">Learn More</a>
+		</div>
+		<div>
+			<h1>Slide 3</h1>
+			<p>This is the third slide. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed justo erat, sagittis eget malesuada in, vulputate ac sapien.</p>
+			<a href="#">Learn More</a>
+		</div>
+	</div>
+
+	<script>
+		var slides = document.querySelectorAll('.slide > div');
+		var currentSlide = 0;
+		var slideInterval = setInterval(nextSlide, 5000);
+
+		function nextSlide() {
+			slides[currentSlide].classList.remove('active');
+			currentSlide = (currentSlide + 1) % slides.length;
+			slides[currentSlide].classList.add('active');
+		}
+	</script>
+</body>
+</html>

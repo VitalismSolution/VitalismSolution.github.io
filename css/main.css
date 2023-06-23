@@ -8167,46 +8167,31 @@ input[type="search"]::-webkit-search-results-decoration {
 
 /* line 369, resources/assets/styles/components/_page-hero.scss */
 
-.hero-industries .component-page-hero {
-  background-color: #ccc;
-  color: #fff;
-}
+
 
 /* line 373, resources/assets/styles/components/_page-hero.scss */
 
-.hero-industries .component-page-hero-title {
-  color: #fff;
-  font-size: 64px;
-  font-style: italic;
-}
+
 
 @media (max-width: 768px) {
   /* line 373, resources/assets/styles/components/_page-hero.scss */
 
-  .hero-industries .component-page-hero-title {
-    font-size: 45px;
-  }
+  
 }
 
 /* line 383, resources/assets/styles/components/_page-hero.scss */
 
-.hero-industries .component-page-hero-subtitle {
-  font-size: 54px;
-}
+
 
 @media (max-width: 768px) {
   /* line 383, resources/assets/styles/components/_page-hero.scss */
 
-  .hero-industries .component-page-hero-subtitle {
-    font-size: 40px;
-  }
+  
 }
 
 /* line 391, resources/assets/styles/components/_page-hero.scss */
 
-.hero-industries .component-page-hero .button-box {
-  margin-top: 2rem;
-}
+
 
 /* line 398, resources/assets/styles/components/_page-hero.scss */
 
